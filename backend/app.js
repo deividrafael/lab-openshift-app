@@ -15,6 +15,7 @@ const pool = new Pool({
   database: process.env.DB_DATABASE,
   password: process.env.DB_PASS,
   port: process.env.PORT,
+  
 });
 
 // Rota para obter os dados da tabela
